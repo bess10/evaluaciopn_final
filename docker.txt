@@ -1,0 +1,16 @@
+crear fichero Dockerfile
+    -establecer imagen de node (FROM node:19-slim)
+    - establecer directorio de trabajo(WORKDIR /app)
+    -copiar package.json y package-lock.json(COPY package*.json ./)
+    - establecer los comandos para arrancar (RUN npm install)
+    - copiar los ficheros necesarios para la app(COPY . .)
+    - establecer los comandos CMD [ "npm", "start" ]
+crear fichero .dockerignore
+crear imagen: docker build -t prova_final .
+mostrar la imagenes creadas: docker images
+ejecutamos la imagen: docker run -d -p 4000:4000 prova_final 
+ver contenedores activos: docker ps
+detener contenedor: docker stop 6283363261e0
+
+
+
