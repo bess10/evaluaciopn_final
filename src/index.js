@@ -3,6 +3,7 @@ const express = require('express');
 const {join} = require('node:path');
 //aqui arrancaremos el servidor
 const cors = require('cors');
+
 const app = express();
 const PUERTO = 4000;
 
