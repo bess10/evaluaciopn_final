@@ -1,0 +1,11 @@
+{
+  "name": "bessy_salgado_1846",
+  "version": "1.0.0",
+  "description": "Evaluacón final",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/index.js"
+  },
+  "author": "Bessy Salgado",
+  "license": "ISC"
+}
