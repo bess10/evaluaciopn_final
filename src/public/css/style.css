@@ -5,8 +5,13 @@
     grid-gap: 20px;
 }
 .cita{
-   
     border: solid rgb(120, 152, 227) 2px;
     border-radius: 10px;
     padding: 15px;
+}
+.cita:hover{
+    background-color: rgb(219, 197, 239);
+}
+body{
+    margin: 20;
 }
