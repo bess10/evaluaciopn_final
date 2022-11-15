@@ -1,0 +1,31 @@
+git init
+git status
+git add package.json
+git commit -m "añadiendo package.json"
+git add .gitignore
+git add package-lock.json
+git commit -m "añadiendo package-lock.json"
+git add src/index.js
+git commit -m "añadiendo index.js aquí se arrancara el servidor"
+git add src/controllers/controllers.js
+git commit -m "añadiendo fichero js aqui ira la lógica de la app"
+git add src/routes/routes.js
+git commit -m "añadiendo fichero js aqui se estableceran las rutas de la app"
+git add src/public/js/app.js
+git commit -m "añadiendo app.js este fichero mostrara un html con los datos de la api de citas"
+git add src/public/css/style.css
+git commit -m "añadiendo fichero css"
+git add src/public/index.html
+git commit -m "añadiendo fichero index.html"
+git status
+git add git.txt
+git commit -m "añadiendo fichero txt"
+git branch -M main
+git remote add origin https://github.com/bess10/evaluaciopn_final.git
+git push -u origin main
+
+
+
+
+
+
